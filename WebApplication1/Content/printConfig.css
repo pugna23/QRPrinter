@@ -1,0 +1,32 @@
+﻿body{
+    padding: 0;
+}
+
+.contenedorQR {
+    text-align: center;
+    display: inline-block;
+    width: 24.5%;
+    border: 1px dashed;
+    padding: 5px 0;
+    margin: 2px 0;
+}
+
+.a4 {
+    width: 950px;
+}
+
+button.fixed-button {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}
+
+img.qr {
+    width: 50px;
+}
+
+@media print {
+    .hidden-print {
+        display: none !important;
+    }
+}
